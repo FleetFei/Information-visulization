@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>project</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>com.aptana.ide.core.unifiedBuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>com.aptana.projects.webnature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>Research_Geomap 2</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/.DS_Store</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/.DS_Store</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/.idea</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/css</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/data</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/img</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/index.html</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/index.html</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/.idea/.name</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/.idea/.name</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/.idea/Research Geomap.iml</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/.idea/Research%20Geomap.iml</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/.idea/inspectionProfiles</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/.idea/modules.xml</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/.idea/modules.xml</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/.idea/workspace.xml</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/.idea/workspace.xml</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/css/main.css</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/css/main.css</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/data/.DS_Store</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/data/.DS_Store</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/data/.ipynb_checkpoints</name>
+			<type>2</type>
+			<locationURI>virtual:/virtual</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/data/country_data.json</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/data/country_data.json</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/data/university_country_count.csv</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/data/university_country_count.csv</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/data/world-countries.json</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/data/world-countries.json</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/img/header-background.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/img/header-background.jpg</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/img/header.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/img/header.jpg</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/img/header1.jpg</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/img/header1.jpg</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js/Search&amp;Scroll.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/js/Search&amp;Scroll.js</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js/bootstrap.min.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/js/bootstrap.min.js</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js/by_state.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/js/by_state.js</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js/colorbrewer.min.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/js/colorbrewer.min.js</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js/jquery.easing.min.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/js/jquery.easing.min.js</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js/jquery.min.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/js/jquery.min.js</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js/orthograph.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/js/orthograph.js</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/js/popper.min.js</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/js/popper.min.js</locationURI>
+		</link>
+		<link>
+			<name>Research_Geomap 2/data/.ipynb_checkpoints/csv2json-checkpoint.ipynb</name>
+			<type>1</type>
+			<locationURI>PARENT-4-PROJECT_LOC/Downloads/Research_Geomap%202/data/.ipynb_checkpoints/csv2json-checkpoint.ipynb</locationURI>
+		</link>
+	</linkedResources>
+	<filteredResources>
+		<filter>
+			<id>1511913134190</id>
+			<name></name>
+			<type>26</type>
+			<matcher>
+				<id>org.eclipse.ui.ide.multiFilter</id>
+				<arguments>1.0-name-matches-false-false-node_modules</arguments>
+			</matcher>
+		</filter>
+	</filteredResources>
+</projectDescription>
