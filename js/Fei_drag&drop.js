@@ -12,16 +12,13 @@ function drop_Fei(ev) {
     ev.target.appendChild(document.getElementById(target_id));
 }
 
-//function dragend(){
-//	alert("drop finished")
-//	var myNode = document.getElementById("bp_body");
-//	while (myNode.firstChild) {
-//	    myNode.removeChild(myNode.firstChild);
-//	}
-//
-//	thisP = $("#current");
-//	var features = getChildStyles(thisP);
-////	alert(features)
-//	bipartite(features,countries);
-//}
+function dragend(){
+	var myNode = document.getElementById("bp_body");
+	while (myNode.firstChild) {
+	    myNode.removeChild(myNode.firstChild);
+	}
+
+	var features = getChildStyles();
+	bipartite(features,countries);
+}
 

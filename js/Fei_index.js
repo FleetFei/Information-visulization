@@ -13,10 +13,10 @@ function bipartite(features,countries) {
 	d3.csv("shanghaiData.csv", function(error, Orgdata) {
 		
 		if(error) throw error;
-		var maxBound = 20;
+		var maxBound = 300;
 		for(var i = 0,j=0; i < maxBound; i++) {
 			var n = 0;
-			university[i]=Orgdata[i].university_name;
+			
 			if(countries.indexOf(Orgdata[i].university_name)>=0){
 				for(var key in Orgdata[i]) {
 					var size = features.length;
@@ -32,7 +32,7 @@ function bipartite(features,countries) {
 			}
 			else{
 				if(countries.length==0){
-					maxBound = 30;
+					maxBound = 10;
 					for(var key in Orgdata[i]) {
 						var size = features.length;
 						if(features.indexOf(key)>=0){
@@ -73,16 +73,6 @@ function bipartite(features,countries) {
 			.width(200)
 			.barSize(35)
 			.fill(d => colorset[d.secondary]),
-
-			viz.bP()
-			.data(unidata)
-			.value(d => d[3])
-			.min(12)
-			.pad(1)
-			.height(600)
-			.width(200)
-			.barSize(35)
-			.fill(d => colorset[d.primary])
 		];
 
 		[0].forEach(function(i) {
