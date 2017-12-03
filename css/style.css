@@ -33,15 +33,11 @@ line{
 	    display: inline-block;
 }
 .cell_feature {
+	width: 45px;
     display: inline-block;
-	padding: 0;
-	margin: 3px;
-	/*border: 1px solid royalblue;*/
-	display: inline-block;
-	display: table-cell;
-	padding-left: 10px;
-	padding-right: 10px;
-	
+	margin-right: 1px;
+	margin-left: 1px;
+	text-align: center;
 }
  /*alumni: "#3366CC",award: "#DC3912", hici: "#FF9900", ns: "#109618", pub: "#990099", pcp: "#0099C6" };*/
 #alumni{
@@ -73,4 +69,13 @@ line{
 	background-color: #c0cfe4;
 	
 	display: inline-block;
+}
+
+.Fei_note{
+	width: 120px;
+    left: 970px;
+    top: 360px;
+    padding-right: 0px;
+    margin-right: 0px;
+
 }
