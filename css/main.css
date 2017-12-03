@@ -223,12 +223,12 @@ section {
     top: 0px;
     width: 100%;
     display: block;
-    height: 200px;
-    background-image: url("../img/header1.jpg");
+    height: 220px;
+    background-image: url("../img/home_header.jpg");
     background-size: 100%, auto;
     text-align: center;
-    opacity: 0.7;
-    filter: grayscale(100%) blur(1.5px);
+    opacity: 0.8;
+    filter: grayscale(0%) blur(1.9px);
 }
 #bodyHead {
     height: 200px;
@@ -237,12 +237,12 @@ section {
 #title {
     text-align: center;
     font-family: 'Roboto', sans-serif;
-    font-size:4em;
+    font-size:5em;
     text-decoration: none;
-    color: black;
+    color: white;
     padding-top: 40px;
     margin-bottom: 30px;
-    font-weight: 900;
+    font-weight: 200;
     margin-top: -200px;
     position: relative;
 }
@@ -281,7 +281,7 @@ svg {
 
 #university_list {
     width: 500px;
-    height: 30px;
+    /*height: 30px;*/
     background-color: white;
     border: 1px solid black;
     margin-bottom: 10px;
@@ -289,3 +289,7 @@ svg {
 .container {
     margin-top: 40px;
 }
+#worldMap {
+	margin-top: 20px;
+}
+

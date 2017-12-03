@@ -14,11 +14,11 @@
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300" rel="stylesheet">
     
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+ 
 	<script src="https://d3js.org/d3.v4.min.js"></script>
 	<script src="http://vizjs.org/viz.v1.1.0.min.js"></script>
-	
 	<script src="js/Fei_index.js"></script>
+	<!--<script src="js/v1.js"></script>-->
 	
 </head>
 <body>
@@ -63,36 +63,32 @@
             </a>
         </button>
         <div class="container" id="paper_detail">
-            <div class="row" id="titleRow">
-                <div class="col-lg-8 mx-auto">
-                    <div id="university_list"></div>
-                    <svg id="bipartite" ondrop="drop(event)" ondragover="allowDrop(event)"></svg>
-                </div>
-            </div>
+            <!--
+				qifei
+			-->
+			<p>selected area</p>
+			<div id="current"  class="div1" ondrop="drop_Fei(event)" ondragover="allowDrop_Fei(event)">
+				<div id="alumni" class="cell_feature" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">alumni</div>
+				<div id="award" class="cell_feature" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">award</div>
+				<div id="hici" class="cell_feature" draggable="true"  ondragstart="drag_Fei(event)"ondragend="dragend()">hici</div>
+				<div id="ns" class="cell_feature" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">ns</div>
+				<div id="pcp" class="cell_feature" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">puc</div>
+				<div id="pub" class="cell_feature" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">pub</div>
+			</div>
+			
+			<p>no needed area</p>
+			<div id="deleted"  class="div1" ondrop="drop_Fei(event)" ondragover="allowDrop_Fei(event)">
+			</div>
+			
+			<div id="bp_body" ></div>
+        
         </div>
+        <button id="test" >test</button>
+        
     </section>
     <script src="js/Search&Scroll.js" charset="utf-8"></script>
-
-
-	<!--
-		qifei
-	-->
-	<p>selected area</p>
-	<div id="current"  class="div1" ondrop="drop_Fei(event)" ondragover="allowDrop_Fei(event)">
-		<div id="alumni" class="div2" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">alumni</div>
-		<div id="award" class="div2" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">award</div>
-		<div id="hici" class="div2" draggable="true"  ondragstart="drag_Fei(event)"ondragend="dragend()">hici</div>
-		<div id="ns" class="div2" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">ns</div>
-		<div id="pcp" class="div2" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">puc</div>
-		<div id="pub" class="div2" draggable="true"  ondragstart="drag_Fei(event)" ondragend="dragend()">pub</div>
-	</div>
 	
-	<p>no needed area</p>
-	<div id="deleted"  class="div1" ondrop="drop_Fei(event)" ondragover="allowDrop_Fei(event)">
-	</div>
 
-	<div id="bp_body"></div>
-	
 	
 	<script src="js/Fei_drag&drop.js"></script>
 </body>

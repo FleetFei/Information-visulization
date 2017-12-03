@@ -25,18 +25,52 @@ line{
 
 
 .div1 {
-		    width: 550px;
-		    height: 40px;
-		    padding: 10px;
-		    margin: 10px;
-		    border: 1px solid #aaaaaa;
-		   /* display: inline-block;*/
-		}
-		.div2 {
-		    width:  50px;
-		    height: 14px;
-		    padding: 10px;
-		    margin: 3px;
-		    border: 1px solid royalblue;
-		    display: inline-block;
-		}
+	    width: 350px;
+	    height: 40px;
+	    padding: 10px;
+	    margin: 10px;
+	    border: 1px solid #aaaaaa;
+	    display: inline-block;
+}
+.cell_feature {
+    display: inline-block;
+	padding: 0;
+	margin: 3px;
+	/*border: 1px solid royalblue;*/
+	display: inline-block;
+	display: table-cell;
+	padding-left: 10px;
+	padding-right: 10px;
+	
+}
+ /*alumni: "#3366CC",award: "#DC3912", hici: "#FF9900", ns: "#109618", pub: "#990099", pcp: "#0099C6" };*/
+#alumni{
+	color: white;
+	background-color:#3366CC ;
+}
+#award{
+	color: white;
+	background-color:#DC3912;
+}
+#hici{
+	color: white;
+	background-color:#FF9900;
+}
+#ns{
+	color: white;
+	background-color:#109618;
+}
+#pub{
+	color: white;
+	background-color:#990099;
+}
+#pcp{
+	color: white;
+	background-color:#0099C6;
+}
+
+#bp_body{
+	background-color: #c0cfe4;
+	
+	display: inline-block;
+}

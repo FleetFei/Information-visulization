@@ -14,7 +14,7 @@ function drop_Fei(ev) {
 
 function dragend(){
 	var myNode = document.getElementById("bp_body");
-	while (myNode.firstChild) {
+	while (myNode!=null &&myNode.firstChild) {
 	    myNode.removeChild(myNode.firstChild);
 	}
 

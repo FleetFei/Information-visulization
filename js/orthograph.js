@@ -337,7 +337,7 @@ function listUniversity(country) {
     $("#searchResults").text("Totally ".concat(universityNumber.toString()).concat(" results."));
     var html = "";
     country_uni.forEach(function (t) {
-        html += "<li class=\"menu__item\" role=\"menuitem\" draggable=\"true\" ondragstart=\"drag(event)\" id=\"";
+        html += "<li class=\"menu__item\" role=\"menuitem\" id=\"";
         html += t;
         html += "\"><a class=\"js-scroll-trigger\" href=\"#about\"> ";
         html += t;
@@ -350,7 +350,35 @@ function listUniversity(country) {
     }
     $("#menuList").html(html);
     $('a.js-scroll-trigger').click(function() {
-
+    		var color = $(this).css("color").replace(/\s+/g, '');
+		if (color == "rgb(35,82,124)" || color == "rgb(245,245,245)"){
+            $(this).css("color","#E4E0A9"); //chose
+        }
+        else if (color == "rgb(228,224,169)"){
+            $(this).css("color", "#F5F5F5");//not choose
+        }
+        
+        //qifei
+	    function getUniversities() {
+			var classNames = new Array();
+			var n=0;
+			$('a.js-scroll-trigger').each(function(i){
+		    		if ($(this).css("color").replace(/\s+/g, '') === "rgb(228,224,169)"){
+		    			classNames.push($.trim($(this).text()))
+		    		}
+		   })
+//			alert(classNames)
+			return classNames;
+		}
+	   
+		var uni = getUniversities();
+		var features = getChildStyles();
+		alert("---"+uni)
+		//  bipartite(features,UniversitiesArr);
+		bipartite(features,uni);
+	    //qifei end
+    
+    
         var target = $(this.hash);
         target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
         if (target.length) {
@@ -361,14 +389,7 @@ function listUniversity(country) {
         }
     });
     
-     //qifei
-	UniversitiesArr = country_uni;
-	thisP = $("#current");
-	var features = getChildStyles(thisP);
-	alert("---"+country_uni)
-	//  bipartite(features,UniversitiesArr);
-	bipartite(features,country_uni);
-    //qifei end
+    
     
 }
 
